@@ -1,0 +1,31 @@
+defaults: &defaults
+  numerals:
+    roman:
+      symbol_values:
+        I: 1
+        V: 5
+        X: 10
+        L: 50
+        C: 100
+        D: 500
+        M: 1000
+    intergalactic:
+      symbol_values:
+        glob: I
+        prok: V
+        pish: X
+        tegj: L
+  units:
+    intergalactic:
+      glob:
+        silver: 17
+        iron: 195.5
+        gold: 14450
+
+
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults

@@ -1,0 +1,2 @@
+class ConversionFailureError < StandardError
+end
